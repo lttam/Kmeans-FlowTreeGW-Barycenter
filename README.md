@@ -4,10 +4,10 @@ Kmeans with flow-based tree Gromov-Wasserstein barycenters
 (**) GUIDELINE 
 
 (**) Authors
-(*) Tam Le
-(*) RIKEN AIP
-(*) tam.le@riken.jp
-(*) October 11th, 2019
++ Tam Le
++ RIKEN AIP
++ tam.le@riken.jp
++ October 11th, 2019
 
 (**) Illustration Kmeans clustering with FlowTreeGW barycneter on 60K MNIST samples rotated randomly
 
@@ -22,9 +22,8 @@ Kmeans with flow-based tree Gromov-Wasserstein barycenters
  + evaluate the performance of Kmeans clustering by F-beta measure
 
 (**) REFERENCE:
- Tam Le*, Nhat Ho*, Makoto Yamada, Computationally Efficient Tree Variants of Gromov-Wasserstein, ArXiv, 2019. (*: equal contribution)
- 
- (*) https://arxiv.org/pdf/1910.04462.pdf
+ + Tam Le*, Nhat Ho*, Makoto Yamada, Computationally Efficient Tree Variants of Gromov-Wasserstein, ArXiv, 2019. (*: equal contribution)
+ + https://arxiv.org/pdf/1910.04462.pdf
 
 
 (**) INFORMATION: Experiments running on Macbook Pro 2018 (laptop)
@@ -43,10 +42,10 @@ Kmeans with flow-based tree Gromov-Wasserstein barycenters
  + run time (for each result in Step2): 20s
 
 (**) TOTAL: evaluation with N runs in step2 (with N different initialization for Kmeans)
-(*) Step1: 27(s) ---> 0.5 (min)
-(*) Step2: 410N(s) --> 7N (min)
-(*) Step3: 20N(s) ---> 0.3N (min)
-(*)  ===> 7.3N + 0.5 (min)
++ Step1: 27(s) ---> 0.5 (min)
++ Step2: 410N(s) --> 7N (min)
++ Step3: 20N(s) ---> 0.3N (min)
++  ===> 7.3N + 0.5 (min)
 
 
 
