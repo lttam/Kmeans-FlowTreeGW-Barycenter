@@ -23,22 +23,19 @@ Kmeans with flow-based tree Gromov-Wasserstein barycenters
 
 (**) REFERENCE:
  Tam Le*, Nhat Ho*, Makoto Yamada, Computationally Efficient Tree Variants of Gromov-Wasserstein, ArXiv, 2019. (*: equal contribution)
+ 
  (*) https://arxiv.org/pdf/1910.04462.pdf
 
 
-(*) INFORMATION
- On Macbook Pro 2018 (laptop)
-
+(*) INFORMATION: Experiments running on Macbook Pro 2018 (laptop)
 (*) STEP1:
  + run time (tree metric): 17s
  + run time (FlowTreeGW representation): 10s
  --> output file: MNIST1x60K_clouds_preKmeans.mat
-
 (*) STEP2:
  + run time (Kmeans with FlowTreeGW barycenter): 409s (~7min)
  --> output file: MNIST1x60K_clouds_Kmeans9_ID1.mat
  (We can run STEP2 n times with different "IDxx" for different initialization for Kmeans)
-
 (*) STEP3:
  + run time (for each result in Step2): 20s
 
