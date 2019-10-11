@@ -21,12 +21,9 @@ Kmeans with flow-based tree Gromov-Wasserstein barycenters
 (**) Step 3: run "evaluate_Kmeans9_MNIST_xx60K_clouds.m"
  + evaluate the performance of Kmeans clustering by F-beta measure
 
-(*) REFERENCE:
- Computationally Efficient Tree Variants of Gromov-Wasserstein
- ArXiv, 2019.
- Tam Le*, Nhat Ho*, Makoto Yamada
- (*: equal contribution)
- https://arxiv.org/pdf/1910.04462.pdf
+(**) REFERENCE:
+ Tam Le*, Nhat Ho*, Makoto Yamada, Computationally Efficient Tree Variants of Gromov-Wasserstein, ArXiv, 2019. (*: equal contribution)
+ (*) https://arxiv.org/pdf/1910.04462.pdf
 
 
 (*) INFORMATION
