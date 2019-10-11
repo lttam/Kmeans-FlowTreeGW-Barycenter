@@ -4,10 +4,10 @@ Kmeans with flow-based tree Gromov-Wasserstein barycenters
 (*) GUIDELINE 
 
 (**) Authors
- Tam Le
- RIKEN AIP
- tam.le@riken.jp
- October 11th, 2019
+(*) Tam Le
+(*) RIKEN AIP
+(*) tam.le@riken.jp
+(*) October 11th, 2019
 
 (*) Illustration Kmeans clustering with FlowTreeGW barycneter on 60K MNIST samples rotated randomly
 
