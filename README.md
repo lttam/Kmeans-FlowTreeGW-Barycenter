@@ -27,16 +27,16 @@ Kmeans with flow-based tree Gromov-Wasserstein barycenters
  (*) https://arxiv.org/pdf/1910.04462.pdf
 
 
-(*) INFORMATION: Experiments running on Macbook Pro 2018 (laptop)
-(*) STEP1:
+(**) INFORMATION: Experiments running on Macbook Pro 2018 (laptop)
+(**) STEP1:
  + run time (tree metric): 17s
  + run time (FlowTreeGW representation): 10s
  --> output file: MNIST1x60K_clouds_preKmeans.mat
-(*) STEP2:
+(**) STEP2:
  + run time (Kmeans with FlowTreeGW barycenter): 409s (~7min)
  --> output file: MNIST1x60K_clouds_Kmeans9_ID1.mat
  (We can run STEP2 n times with different "IDxx" for different initialization for Kmeans)
-(*) STEP3:
+(**) STEP3:
  + run time (for each result in Step2): 20s
 
 (**) TOTAL: evaluation with N runs in step2 (with N different initialization for Kmeans)
