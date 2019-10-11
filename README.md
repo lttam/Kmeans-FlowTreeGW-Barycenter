@@ -1,7 +1,7 @@
 # Kmeans-FlowTreeGW-Barycenter
 Kmeans with flow-based tree Gromov-Wasserstein barycenters
 
-(*) GUIDELINE 
+(**) GUIDELINE 
 
 (**) Authors
 (*) Tam Le
@@ -9,7 +9,7 @@ Kmeans with flow-based tree Gromov-Wasserstein barycenters
 (*) tam.le@riken.jp
 (*) October 11th, 2019
 
-(*) Illustration Kmeans clustering with FlowTreeGW barycneter on 60K MNIST samples rotated randomly
+(**) Illustration Kmeans clustering with FlowTreeGW barycneter on 60K MNIST samples rotated randomly
 
 (**) Step 1: run "preKmeans_MNISTxx60K_clouds.m"
  + Building tree metrics (same structure for each probability measures on different spaces
